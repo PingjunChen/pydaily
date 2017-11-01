@@ -19,4 +19,11 @@ def rename_files(input_dir, save_dir, ext='.png', start_num=0, filename_len=5):
         save_path = os.path.join(save_dir, save_filename)
         shutil.copy(filepath, save_path)
     # print("---Renaming finished---")
-    
+
+
+
+if __name__ == '__main__':
+    input_dir = "/home/pingjun/Desktop/SegPreds"
+    save_dir = "/home/pingjun/Desktop/Rename"
+
+    rename_files(input_dir, save_dir, ext=".png", start_num=5)

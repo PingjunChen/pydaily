@@ -1,2 +1,2 @@
-# py_utils
-Utility functions for python
+# pydaily
+Daily utility functions for python

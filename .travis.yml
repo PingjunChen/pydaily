@@ -9,4 +9,4 @@ python:
 # install:
 
 script:
-  - tools/travis/script.sh
+  - python pydaily/hello.py

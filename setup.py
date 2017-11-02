@@ -1,18 +1,46 @@
 # -*- coding: utf-8 -*-
-
-import os, sys
+import os, sys, pdb
 from setuptools import setup, find_packages
 
-VERSION = '0.0.2'
+import pydaily
 
-setup(
-    name="pydaily",
+PKG_NAME = "pydaily"
+VERSION = pydaily.__version__
+DESCRIPTION = "Daily python utility functions."
+HOMEPAGE = "https://github.com/PingjunChen/pydaily"
+LICENSE = "Apache"
+AUTHOR_NAME = "Pingjun Chen"
+AUTHOR_EMAIL = "chenpingjun@gmx.com"
+
+REQS = ""
+with open('requirements.txt') as f:
+    REQS = f.read().splitlines()
+
+CLASSIFIERS = [
+    'Development Status :: 1 - Planning',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Science/Research',
+    'License :: OSI Approved :: Apache License',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 2',
+    'Programming Language :: Python :: 2.7',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.6',
+    'Topic :: Scientific/Engineering',
+]
+
+args = dict(
+    name=PKG_NAME,
     version=VERSION,
+    description=DESCRIPTION,
+    url=HOMEPAGE,
+    license=LICENSE,
+    author=AUTHOR_NAME,
+    author_email=AUTHOR_EMAIL,
     packages=find_packages(),
-    author="Pingjun Chen",
-    author_email="chenpingjun@gmx.com",
-    description="daily python utility functions ",
-    license="Apache",
-    keywords=["python", "utility functions", "data science",
-              "biomedical image analysis", "artificial intelligence"],
-    url="https://github.com/PingjunChen/pydaily")
+    install_requires=REQS,
+    classifiers= CLASSIFIERS,
+)
+
+pdb.set_trace()
+setup(**args)

@@ -20,7 +20,7 @@ CLASSIFIERS = [
     'Development Status :: 1 - Planning',
     'Intended Audience :: Developers',
     'Intended Audience :: Science/Research',
-    'License :: OSI Approved :: Apache License',
+    'License :: OSI Approved :: Apache Software License',
     'Programming Language :: Python',
     'Programming Language :: Python :: 2',
     'Programming Language :: Python :: 2.7',
@@ -42,5 +42,4 @@ args = dict(
     classifiers= CLASSIFIERS,
 )
 
-pdb.set_trace()
 setup(**args)

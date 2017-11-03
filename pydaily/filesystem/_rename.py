@@ -3,7 +3,8 @@
 import os, sys
 import glob, shutil
 
-__all__ = ['batch_rename_files', ]
+__all__ = ['batch_rename_files',
+           ]
 
 def batch_rename_files(input_dir, save_dir, ext='.png', start_num=0, filename_len=5):
     all_files = glob.glob(os.path.join(input_dir, "*" + ext))
@@ -23,8 +24,8 @@ def batch_rename_files(input_dir, save_dir, ext='.png', start_num=0, filename_le
 
 
 
-if __name__ == '__main__':
-    input_dir = "/home/pingjun/Desktop/SegPreds"
-    save_dir = "/home/pingjun/Desktop/Rename"
-
-    rename_files(input_dir, save_dir, ext=".png", start_num=5)
+# if __name__ == '__main__':
+#     input_dir = "/home/pingjun/Desktop/SegPreds"
+#     save_dir = "/home/pingjun/Desktop/Rename"
+#
+#     batch_rename_files(input_dir, save_dir, ext=".png", start_num=5)

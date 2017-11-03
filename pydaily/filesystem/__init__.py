@@ -2,4 +2,7 @@
 
 import os, sys, pdb
 
-from .rename import *
+from ._file import *
+from ._folder import *
+from ._rename import *
+from ._suffix import *

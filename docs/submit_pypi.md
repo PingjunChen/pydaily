@@ -9,10 +9,11 @@ The Python Package Index is a repository of software for the Python programming 
 
 ### Upload to PyPI
 ```
+$ rm -rf dist pydaily.egg-info
 $ python setup.py sdist upload -r pypi
 $ rm -rf build
 $ python setup.py sdist bdist_wheel
-$ twine upload -r test --sign dist/pydaily*
+$ twine upload -r test --sign dist/pydaily-
 ```
 
 #### References

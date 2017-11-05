@@ -5,6 +5,7 @@ import os, sys, pdb
 BASE_PATH = os.path.abspath(os.path.dirname(__file__))
 MODULE_NAME = os.path.basename(BASE_PATH)
 
+
 def configuration(parent_package='', top_path=None):
     from numpy.distutils.misc_util import Configuration, get_numpy_include_dirs
 

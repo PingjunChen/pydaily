@@ -2,10 +2,15 @@
 
 import os, sys, pdb
 
+BASE_PATH = os.path.abspath(os.path.dirname(__file__))
+PKG_NAME = os.path.basename(BASE_PATH)
+
+pdb.set_trace()
+
 def configuration(parent_package='', top_path=None):
     from numpy.distutils.misc_util import Configuration
 
-    config = Configuration('pydaily', parent_package, top_path)
+    config = Configuration(PKG_NAME, parent_package, top_path)
 
     config.add_subpackage('contours')
     config.add_subpackage('filesystem')

@@ -21,11 +21,3 @@ def batch_rename_files(input_dir, save_dir, ext='.png', start_num=0, filename_le
         save_path = os.path.join(save_dir, save_filename)
         shutil.copy(filepath, save_path)
     # print("---Renaming finished---")
-
-
-
-# if __name__ == '__main__':
-#     input_dir = "/home/pingjun/Desktop/SegPreds"
-#     save_dir = "/home/pingjun/Desktop/Rename"
-#
-#     batch_rename_files(input_dir, save_dir, ext=".png", start_num=5)

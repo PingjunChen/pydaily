@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import os, sys, pdb
-from pydaily.images import blend_images
-from pydaily.images import graymask2rgb
+from pydaily.image import blend_images
+from pydaily.image import graymask2rgb
 from pydaily import DATA_DIR
 
 import numpy as np

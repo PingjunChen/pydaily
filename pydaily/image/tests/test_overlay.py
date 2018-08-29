@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os, sys
-from pydaily.images import overlay_bbox
+from pydaily.image import overlay_bbox
 from pydaily import DATA_DIR
 
 

@@ -12,9 +12,9 @@ def configuration(parent_package='', top_path=None):
 
     config = Configuration(PKG_NAME, parent_package, top_path)
 
-    config.add_subpackage('metrics')
     config.add_subpackage('filesystem')
-    config.add_subpackage('images')
+    config.add_subpackage('image')
+    config.add_subpackage('metric')
     config.add_subpackage('plots')
 
     # Add test directories

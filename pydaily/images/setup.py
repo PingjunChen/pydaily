@@ -18,7 +18,7 @@ if __name__ == '__main__':
     from numpy.distutils.core import setup
     setup(maintainer='Pingjun Chen',
           maintainer_email='chenpingjun@gmx.com',
-          description='File operation utilities',
+          description='Image operation utilities',
           url='https://github.com/PingjunChen/pydaily',
           license='Apache',
           **(configuration(top_path='').todict())

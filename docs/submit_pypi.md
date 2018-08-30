@@ -13,6 +13,7 @@ $ rm -rf dist pydaily.egg-info
 $ python setup.py sdist upload -r pypi
 $ rm -rf build
 $ python setup.py sdist bdist_wheel
+$ twine upload --repository-url https://upload.pypi.org/legacy/ dist/pydaily-*.whl
 $ twine upload --repository-url https://test.pypi.org/legacy dist/*
 ```
 

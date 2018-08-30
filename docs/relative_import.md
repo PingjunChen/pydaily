@@ -4,7 +4,7 @@ Fix “Attempted relative import in non-package”
 ### Use repo as package
 ```
 # Execute test script 'test_file.py' in filesystem subpackage
-$ python -m python -m pydaily.filesystem.tests.test_file
+$ python -m pydaily.filesystem.tests.test_file
 ```
 
 

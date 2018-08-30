@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import os, sys, pdb
+import os, sys
 from pydaily.image import graymask2rgb
 from pydaily import DATA_DIR
 

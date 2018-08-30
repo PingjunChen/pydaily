@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import os, sys, pdb
+import os, sys
 
 from ._file import *
 from ._folder import *

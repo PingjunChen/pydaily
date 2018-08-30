@@ -3,6 +3,11 @@
 import os, sys
 import numpy as np
 
+__all__ = ['cal_confusion_matrix', 'cal_histogram',
+            'cal_kappa', 'cal_linear_weighted_kappa',
+            'cal_quadratic_weighted_kappa',
+           ]
+
 def cal_confusion_matrix(ra, rb, min_r=None, max_r=None):
     """Calculate the confusion matrix between two raters.
     """
@@ -33,6 +38,7 @@ def cal_histogram(ra, min_r=None, max_r=None):
         hist[r-min_r] += 1
 
     return hist
+
 
 def cal_kappa(ra, rb, min_r=None, max_r=None):
     """Calculate Cohen's kappa for inter-rater agreement measuring

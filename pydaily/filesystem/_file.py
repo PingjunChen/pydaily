@@ -5,6 +5,7 @@ import os, sys
 __all__ = ['find_ext_files',
            ]
 
+
 def find_ext_files(dir_name, ext):
     assert os.path.isdir(dir_name), "{} is not a valid directory".format(dir_name)
 

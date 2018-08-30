@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import os, sys, pdb
+import os, sys
 
 BASE_PATH = os.path.abspath(os.path.dirname(__file__))
 MODULE_NAME = os.path.basename(BASE_PATH)
@@ -18,7 +18,7 @@ if __name__ == '__main__':
     from numpy.distutils.core import setup
     setup(maintainer='Pingjun Chen',
           maintainer_email='chenpingjun@gmx.com',
-          description='File operation utilities',
+          description='Plotting utilities',
           url='https://github.com/PingjunChen/pydaily',
           license='Apache',
           **(configuration(top_path='').todict())

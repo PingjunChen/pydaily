@@ -7,6 +7,7 @@ import numpy as np
 __all__ = ['overlay_bbox',
            ]
 
+
 def overlay_bbox(im, boxes, rgb, stroke=1):
     """Method to overlay bounding boxes on image
 

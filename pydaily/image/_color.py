@@ -7,6 +7,7 @@ import numpy as np
 __all__ = ['graymask2rgb',
            ]
 
+
 def graymask2rgb(mask, channel=0):
     # Assert image shape
     assert len(mask.shape) in [2, 3], "Mask shape error"

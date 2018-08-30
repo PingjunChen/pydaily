@@ -2,7 +2,7 @@
 
 pydaily
 ========
-Daily utility functions for python
+Daily python utility functions.
 
 
 ## Installation

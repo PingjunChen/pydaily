@@ -6,6 +6,7 @@ import glob, shutil
 __all__ = ['batch_rename_files',
            ]
 
+
 def batch_rename_files(input_dir, save_dir, ext='.png', start_num=0, filename_len=5):
     all_files = glob.glob(os.path.join(input_dir, "*" + ext))
 

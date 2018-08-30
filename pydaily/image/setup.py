@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import os, sys, pdb
+import os, sys
 
 BASE_PATH = os.path.abspath(os.path.dirname(__file__))
 MODULE_NAME = os.path.basename(BASE_PATH)
@@ -13,6 +13,7 @@ def configuration(parent_package='', top_path=None):
     config.add_data_dir('tests')
 
     return config
+
 
 if __name__ == '__main__':
     from numpy.distutils.core import setup

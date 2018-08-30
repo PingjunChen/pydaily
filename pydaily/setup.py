@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 
-import os, sys, pdb
+import os, sys
 
 BASE_PATH = os.path.abspath(os.path.dirname(__file__))
 PKG_NAME = os.path.basename(BASE_PATH)
-
-pdb.set_trace()
 
 def configuration(parent_package='', top_path=None):
     from numpy.distutils.misc_util import Configuration

@@ -15,7 +15,7 @@ def cal_confusion_matrix(ra, rb, min_r=None, max_r=None):
         ra = ra.tolist()
     if type(rb) == np.ndarray:
         rb = rb.tolist()
-    assert len(ra) == len(rb), print("Two ratings are of different length")
+    assert len(ra) == len(rb), "Two ratings are of different length"
     min_r = min(ra + rb) if min_r==None else min_r
     max_r = max(ra + rb) if max_r==None else max_r
     r_num = max_r - min_r + 1
@@ -47,7 +47,7 @@ def cal_kappa(ra, rb, min_r=None, max_r=None):
         ra = ra.tolist()
     if type(rb) == np.ndarray:
         rb = rb.tolist()
-    assert len(ra) == len(rb), print("Two ratings are of different length")
+    assert len(ra) == len(rb), "Two ratings are of different length"
     min_r = min(ra + rb) if min_r==None else min_r
     max_r = max(ra + rb) if max_r==None else max_r
 
@@ -77,7 +77,7 @@ def cal_linear_weighted_kappa(ra, rb, min_r=None, max_r=None):
         ra = ra.tolist()
     if type(rb) == np.ndarray:
         rb = rb.tolist()
-    assert len(ra) == len(rb), print("Two ratings are of different length")
+    assert len(ra) == len(rb), "Two ratings are of different length"
     min_r = min(ra + rb) if min_r==None else min_r
     max_r = max(ra + rb) if max_r==None else max_r
 
@@ -107,7 +107,7 @@ def cal_quadratic_weighted_kappa(ra, rb, min_r=None, max_r=None):
         ra = ra.tolist()
     if type(rb) == np.ndarray:
         rb = rb.tolist()
-    assert len(ra) == len(rb), print("Two ratings are of different length")
+    assert len(ra) == len(rb), "Two ratings are of different length"
     min_r = min(ra + rb) if min_r==None else min_r
     max_r = max(ra + rb) if max_r==None else max_r
 

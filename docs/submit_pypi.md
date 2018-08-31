@@ -9,15 +9,12 @@ The Python Package Index is a repository of software for the Python programming 
 
 ### Upload to PyPI
 ```
-$ rm -rf dist pydaily.egg-info
-$ python setup.py sdist upload -r pypi
-$ rm -rf build
+$ rm -rf build dist *.egg-info 
 $ python setup.py sdist bdist_wheel
-$ twine upload --repository-url https://upload.pypi.org/legacy/ dist/pydaily-*.whl
-$ twine upload --repository-url https://test.pypi.org/legacy dist/*
+$ twine upload --repository-url https://upload.pypi.org/legacy/ dist/
+$ twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ```
 
 #### References
 * [Getting Started With setuptools and setup.py](https://pythonhosted.org/an_example_pypi_project/setuptools.html)
-* [How to submit a package to PyPI](http://peterdowns.com/posts/first-time-with-pypi.html)
 * [Sharing Your Labor of Love: PyPI Quick and Dirty](https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty)

@@ -9,10 +9,6 @@ Daily python utility functions.
 ```
 pip install pydaily
 ```
-<!-- Alternatively
-```
-conda install -c pingjunchen pydaily
-``` -->
 
 ## Main feature
 To appear...

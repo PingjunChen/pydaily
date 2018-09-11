@@ -4,8 +4,23 @@ import os, sys
 import numpy as np
 
 
-__all__ = ['graymask2rgb',
+__all__ = ['stackgray2rgb', 'graymask2rgb',
            ]
+
+
+def stackgray2rgb(gray):
+    """Stack three same gray image to 2 rgb image.
+    """
+    assert len(gray.shape) in [2, 3], "Gray image shape error"
+    if len(gray.shape) == 3:
+        assert gray.shape[2] == 1, "Not a proper gray image"
+        gray = np.squeeze(gray, axis=2)
+
+    if np.amax(gray) <= 1.0:
+        gray = (gray * 255.0).astype(np.uint8)
+
+    rgb_img = np.stack((gray, ), axis=-1)
+    return rgb_img
 
 
 def graymask2rgb(mask, channel=0):

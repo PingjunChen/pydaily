@@ -9,10 +9,9 @@ The Python Package Index is a repository of software for the Python programming 
 
 ### Upload to PyPI
 ```
-$ rm -rf build dist *.egg-info 
+$ rm -rf build dist *.egg-info
 $ python setup.py sdist bdist_wheel
 $ twine upload --repository-url https://upload.pypi.org/legacy/ dist/
-$ twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ```
 
 #### References

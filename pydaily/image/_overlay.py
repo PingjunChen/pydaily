@@ -4,7 +4,7 @@ import os, sys
 import numpy as np
 
 
-__all__ = ['overlay_bbox',
+__all__ = ['overlay_bbox', 'overlay_box_label',
            ]
 
 
@@ -35,3 +35,22 @@ def overlay_bbox(im, boxes, rgb, stroke=1):
         im[y_min:y_max, right_start:right_end, :] = rgb
 
     return im
+
+
+def overlay_box_label(img, boxes, labels):
+    """Method to overlay paired boxes and lables on image
+
+    Parameters
+    ----------
+    boxes: list of box with [x_min, y_min, x_max, y_max]
+    labels: label corresponded with box
+
+    """
+
+    font = cv2.FONT_HERSHEY_SIMPLEX
+    for box, label in zip(boxes, labels):
+        tl_pos, br_pos = (box[0], box[1]), (box[2], box[3])
+        overlay = cv2.rectangle(img, tl_pos, br_pos, (255,0,0), 2)
+        cv2.putText(overlay, label, tl_pos, font, 1, (255,255,255), 2, cv2.LINE_AA)
+
+    return overlay

@@ -17,5 +17,5 @@ pip install pydaily
 
 
 ## Documentation
-* Hosted in [https://docs.readthedocs.io](https://docs.readthedocs.io), powered by [readthedocs](https://readthedocs.org) and
+* Hosted in [https://pydaily.readthedocs.io](https://pydaily.readthedocs.io), powered by [readthedocs](https://readthedocs.org) and
 [Sphinx](http://www.sphinx-doc.org).

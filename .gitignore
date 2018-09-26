@@ -1,5 +1,7 @@
 # Folders
 data/
+_static/
+_templates/
 
 
 # Temporary OS files

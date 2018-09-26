@@ -22,6 +22,6 @@ The documentation for `pydaily`_ is mainly organized by sub-modules.
 
 .. toctree::
    :maxdepth: 2
-   :caption: About pydaily
+   :caption: About
 
    about

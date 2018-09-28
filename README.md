@@ -10,7 +10,7 @@ pip install pydaily
 ```
 
 
-## Main features
+## Main modules
 - **filesystem**: file operation related utilities.
 - **image**: image operation related utilities.
 - **metric**: metric calculation for evaluation.

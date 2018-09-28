@@ -1,2 +1,2 @@
-image Module
+image pkg
 ========

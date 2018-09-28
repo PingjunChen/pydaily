@@ -1,2 +1,2 @@
-Module image
-================
+image Module
+========

@@ -1,2 +1,2 @@
-Module metric
+metric Module
 ================

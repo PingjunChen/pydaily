@@ -1,10 +1,17 @@
-Module filesystem
+filesystem
 ================
-.. automodule:: filesystem
 
-Functions
+find_ext_files
 --------
-.. autofunction:: find_ext_files
-.. autofunction:: overwrite_dir
-.. autofunction:: batch_uuid_rename
-.. autofunction:: is_image_file
+::
+
+def find_ext_files(dir_name, ext):
+  """ Find all file with specific extension under designated directory
+  
+  """
+  
+  **Arguments**
+  
+  dir_name: path of the designated directory
+  
+  ext:      specific file extension

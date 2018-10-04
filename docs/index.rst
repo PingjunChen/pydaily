@@ -1,9 +1,7 @@
 Welcome to pydaily's documentation!
 ===================================
 
-The documentation for `pydaily`_ is mainly organized by sub-modules.
-
-.. _pydaily: https://github.com/PingjunChen/pydaily
+The documentation for `pydaily <https://github.com/PingjunChen/pydaily>`_ is mainly organized by sub-modules.
 
 * :ref:`user-docs`
 * :ref:`about-docs`

@@ -2,6 +2,9 @@
 
 import os, sys
 
+__all__ = ['Logger',
+           ]
+
 class Logger(object):
     """ Logging to terminal and file.
 

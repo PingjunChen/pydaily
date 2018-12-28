@@ -4,15 +4,17 @@ import os, sys
 import numpy as np
 import cv2
 
-from pydaily.image import stackgray2rgb
+from ._color import stackgray2rgb
 
 
-__all__ = ['overlay_bbox', 'overlay_box_label', 'overlay_contour'
-           ]
+__all__ = ['overlay_contour',
+    'overlay_bbox',
+    'overlay_box_label',
+    ]
 
 
 def overlay_bbox(im, boxes, rgb, stroke=1):
-    """Method to overlay bounding boxes on image
+    """Method to overlay bounding boxes on image.
 
     Parameters
     ----------

@@ -8,7 +8,7 @@ PRJ_PATH = os.path.dirname(TEST_PATH)
 sys.path.insert(0, os.path.join(PRJ_PATH, "pydaily"))
 DATA_DIR = os.path.join(TEST_PATH, "data")
 
-from pydaily.filesystem import batch_rename_files
+from filesystem import batch_rename_files
 
 def test_batch_rename_files():
     input_dir = os.path.join(DATA_DIR, 'input')

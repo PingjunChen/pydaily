@@ -4,7 +4,8 @@ import os, sys
 import numpy as np
 
 
-__all__ = ['stackgray2rgb', 'graymask2rgb',
+__all__ = ['stackgray2rgb',
+           'graymask2rgb',
            ]
 
 

@@ -4,13 +4,18 @@ import os, sys
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-from pydaily.image import overlay_bbox, overlay_contour
-from pydaily import DATA_DIR
+FILE_PATH = os.path.abspath(__file__)
+TEST_PATH = os.path.dirname(os.path.dirname(FILE_PATH))
+PRJ_PATH = os.path.dirname(TEST_PATH)
+sys.path.insert(0, os.path.join(PRJ_PATH, "pydaily"))
 
+DATA_DIR = os.path.join(TEST_PATH, "data")
+from image import overlay_bbox
+from image import overlay_contour
 
 def test_overlay_bbox():
     # load image
-    img_path = os.path.join(DATA_DIR, "TestImgs", "pathology_test01.jpg")
+    img_path = os.path.join(DATA_DIR, "input", "AliceLake.jpg")
     img = cv2.imread(img_path)
     img = img[...,::-1]
 
@@ -22,15 +27,14 @@ def test_overlay_bbox():
     rgb = (0, 255, 0)
     img = overlay_bbox(img, bboxes, rgb, stroke=5)
 
-
     plt.imshow(img)
     plt.axis('off')
     plt.show()
 
 
-def test_overlay_cnt():
+def test_overlay_contour():
     # load image
-    img_path = os.path.join(DATA_DIR, "TestImgs", "pathology_test01.jpg")
+    img_path = os.path.join(DATA_DIR, "input", "AliceLake.jpg")
     img = cv2.imread(img_path)
     img = img[...,::-1]
 
@@ -45,7 +49,3 @@ def test_overlay_cnt():
     plt.imshow(img)
     plt.axis('off')
     plt.show()
-
-if __name__ == "__main__":
-    test_overlay_bbox()
-    # test_overlay_cnt()

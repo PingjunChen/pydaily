@@ -14,7 +14,7 @@ def configuration(parent_package='', top_path=None):
     config.add_subpackage('image')
     config.add_subpackage('log')
     config.add_subpackage('metric')
-    config.add_subpackage('time')
+    config.add_subpackage('tic')
 
     # Add test directories
     from os.path import isdir, dirname, join

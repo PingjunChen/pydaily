@@ -1,7 +1,7 @@
 # Folders
-test/data/
 _static/
 _templates/
+/test/data
 
 
 # Temporary OS files

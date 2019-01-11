@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+
+import os, sys
+
+FILE_PATH = os.path.abspath(__file__)
+TEST_PATH = os.path.dirname(os.path.dirname(FILE_PATH))
+PRJ_PATH = os.path.dirname(TEST_PATH)
+sys.path.insert(0, os.path.join(PRJ_PATH, "pydaily"))
+
+from format import dict_to_csv, csv_to_dict
+
+
+def test_csv():
+    test_dict = {"names": ["Dina", "Irina", "Kennedy"],
+                 "ages": [23, 31, 19]}
+    # save as csv file
+    test_csv_path = os.path.join(TEST_PATH, "data", "test.csv")
+    dict_to_csv(test_dict, test_csv_path)
+
+    # load from csv file
+    cur_dict = csv_to_dict(test_csv_path)
+    import pdb; pdb.set_trace()

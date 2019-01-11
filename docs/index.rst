@@ -13,8 +13,6 @@ The documentation for `pydaily <https://github.com/PingjunChen/pydaily>`_ is mai
   :caption: User Documentation
 
   filesystem
-  image
-  metric
 
 .. _about-docs:
 

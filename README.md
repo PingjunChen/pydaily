@@ -12,9 +12,7 @@ pip install pydaily
 ## Main modules
 - **filesystem**: file utilities.
 - **format**: file format utilities.
-- **image**: image utilities. (may remove)
 - **log**: log utilities.
-- **metric**: metric calculation for evaluation (may remove).
 - **tic**: time utilities.
 
 ## Documentation

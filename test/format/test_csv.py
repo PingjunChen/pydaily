@@ -19,4 +19,3 @@ def test_csv():
 
     # load from csv file
     cur_dict = csv_to_dict(test_csv_path)
-    import pdb; pdb.set_trace()

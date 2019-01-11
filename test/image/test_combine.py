@@ -2,8 +2,6 @@
 
 import os, sys, pdb
 import numpy as np
-from scipy import misc
-import matplotlib.pyplot as plt
 
 FILE_PATH = os.path.abspath(__file__)
 TEST_PATH = os.path.dirname(os.path.dirname(FILE_PATH))
@@ -27,6 +25,7 @@ from image import graymask2rgb
 #     mask_rgb = graymask2rgb(mask, 'r')
 #     # combine img and mask_rgb
 #     combine = blend_images(img, mask_rgb, 0.8)
-#
+
+#     # import matplotlib.pyplot as plt
 #     # plt.imshow(combine)
 #     # plt.show()

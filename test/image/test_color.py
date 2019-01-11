@@ -2,8 +2,6 @@
 
 import os, sys
 import numpy as np
-from scipy import misc
-import matplotlib.pyplot as plt
 
 FILE_PATH = os.path.abspath(__file__)
 TEST_PATH = os.path.dirname(os.path.dirname(FILE_PATH))
@@ -22,10 +20,13 @@ from image import graymask2rgb
 #         mask_img = misc.imread(mask_img_path)
 #     except:
 #         print("Load {} error.".format(mask_img_path))
-#
-#     plt.imshow(mask_img, cmap='gray')
-#     plt.show()
+
+#     # import matplotlib.pyplot as plt
+#     # plt.imshow(mask_img, cmap='gray')
+#     # plt.show()
 #
 #     mask_rgb = graymask2rgb(mask_img, channel='r')
+
+#     # import matplotlib.pyplot as plt
 #     # plt.imshow(mask_rgb)
 #     # plt.show()

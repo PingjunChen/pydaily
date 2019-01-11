@@ -3,7 +3,6 @@
 import os, sys
 import numpy as np
 import cv2
-import matplotlib.pyplot as plt
 FILE_PATH = os.path.abspath(__file__)
 TEST_PATH = os.path.dirname(os.path.dirname(FILE_PATH))
 PRJ_PATH = os.path.dirname(TEST_PATH)
@@ -27,6 +26,7 @@ def test_overlay_bbox():
     rgb = (0, 255, 0)
     img = overlay_bbox(img, bboxes, rgb, stroke=5)
 
+    # import matplotlib.pyplot as plt
     # plt.imshow(img)
     # plt.axis('off')
     # plt.show()
@@ -46,6 +46,7 @@ def test_overlay_contour():
     rgb = (0, 0, 240)
     img = overlay_contour(img, cnt, rgb, cnt_width=5)
 
+    # import matplotlib.pyplot as plt
     # plt.imshow(img)
     # plt.axis('off')
     # plt.show()

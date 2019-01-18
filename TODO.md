@@ -1,3 +1,7 @@
-# TODO
-* add docs for metics and image modules
-* add docstring for written functions
+## Todo
+
+- [ ] DocString
+- [ ] Testing
+- [ ] Documentation
+- [x] Issues
+- [x] Pull Requests

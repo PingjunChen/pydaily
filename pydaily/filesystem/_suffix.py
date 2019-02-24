@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import os, sys
-
 __all__ = ['is_image_file',
            ]
 

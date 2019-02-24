@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import os, sys
+import os
 import glob, shutil, uuid
 
 __all__ = ['batch_uuid_rename', 'batch_rename_files',
@@ -15,13 +15,11 @@ def batch_rename_files(input_dir, save_dir, ext='.png', start_num=0, filename_le
         shutil.rmtree(save_dir)
     os.makedirs(save_dir)
 
-    # print("---Start renaming---")
     for ind, filepath in enumerate(all_files):
         cur_ind = start_num + ind
         save_filename = str(cur_ind).zfill(filename_len) + ext
         save_path = os.path.join(save_dir, save_filename)
         shutil.copy(filepath, save_path)
-    # print("---Renaming finished---")
 
 
 def batch_uuid_rename(input_dir, save_dir, ext=".png"):
@@ -33,8 +31,7 @@ def batch_uuid_rename(input_dir, save_dir, ext=".png"):
         shutil.rmtree(save_dir)
     os.makedirs(save_dir)
 
-    # print("---Start renaming---")
-    for ind, filepath in enumerate(all_files):
+    for filepath in all_files:
         cur_uuid = uuid.uuid4()
         save_filename = str(cur_uuid)[:8] + ext
         save_path = os.path.join(save_dir, save_filename)

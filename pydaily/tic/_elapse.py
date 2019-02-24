@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import os, sys
-
 __all__ = ["time_to_str", ]
 
 def time_to_str(delta_t, mode="min"):

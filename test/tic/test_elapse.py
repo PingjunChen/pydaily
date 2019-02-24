@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import os, sys
-import numpy as np
 
 FILE_PATH = os.path.abspath(__file__)
 TEST_PATH = os.path.dirname(os.path.dirname(FILE_PATH))

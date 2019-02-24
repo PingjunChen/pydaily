@@ -8,7 +8,7 @@
 Installation
 ------------
 ```
-pip install pydaily
+pip install pydaily==0.3.2
 ```
 
 Main modules

@@ -1,4 +1,4 @@
-filesystem pkg
+filesystem
 ========
 
 find_ext_files

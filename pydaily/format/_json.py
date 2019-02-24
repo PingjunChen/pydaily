@@ -3,6 +3,11 @@
 import os, sys
 import json
 
+__all__ = ['json_to_dict',
+           'dict_to_json'
+           ]
+
+
 def json_to_dict(json_path):
     """ Load json file as dictionary.
 

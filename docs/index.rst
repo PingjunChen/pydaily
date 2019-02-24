@@ -13,6 +13,9 @@ The documentation for `pydaily <https://github.com/PingjunChen/pydaily>`_ is mai
   :caption: User Documentation
 
   filesystem
+  format
+  log
+  tic
 
 .. _about-docs:
 

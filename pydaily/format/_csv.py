@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import os, sys
 import pandas as pd
 
 __all__ = ['csv_to_dict',
@@ -9,6 +8,16 @@ __all__ = ['csv_to_dict',
 
 def csv_to_dict(csv_path):
     """ Load csv to python dictionary.
+
+    Parameters
+    -------
+    csv_path: str
+        csv file path
+
+    Returns
+    -------
+    data_dict: dict
+        data represented as python dictionary
 
     """
 
@@ -20,6 +29,13 @@ def csv_to_dict(csv_path):
 
 def dict_to_csv(data_dict, csv_path):
     """ Save python dictionary to csv file.
+
+    Parameters
+    -------
+    data_dict: dict
+        data represented as dictionary
+    csv_path: str
+        csv file path to save
 
     """
 

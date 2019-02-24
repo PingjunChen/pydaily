@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import os, sys
 import json
 
 __all__ = ['json_to_dict',
@@ -9,7 +8,17 @@ __all__ = ['json_to_dict',
 
 
 def json_to_dict(json_path):
-    """ Load json file as dictionary.
+    """ Load json file as dictionary
+
+    Parameters
+    -------
+    json_path: str
+        json file path
+
+    Returns
+    -------
+    data_dict: dict
+        data represented as python dictionary
 
     """
 
@@ -20,7 +29,14 @@ def json_to_dict(json_path):
 
 
 def dict_to_json(data_dict, json_path):
-    """ Save dictionary to json file.
+    """ Save dictionary to json file
+
+    Parameters
+    -------
+    data_dict: dict
+        data represented as dictionary
+    json_path: str
+        json file path to save
 
     """
 

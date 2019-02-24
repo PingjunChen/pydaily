@@ -37,3 +37,23 @@ def dict_to_csv(data_dict, csv_path):
     """ Save python dictionary to csv file.
 
     """
+
+
+pkl_to_dict
+--------
+::
+
+def pkl_to_dict(pkl_path):
+    """ Load pickle file as python dictionary
+
+    """
+
+
+dict_to_pkl
+--------
+::
+
+def dict_to_pkl(data_dict, pkl_path):
+    """ Save dictionary data as pickle file
+
+    """

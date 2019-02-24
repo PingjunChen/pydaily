@@ -8,6 +8,10 @@ __all__ = ['batch_uuid_rename', 'batch_rename_files',
 
 
 def batch_rename_files(input_dir, save_dir, ext='.png', start_num=0, filename_len=5):
+    """ Rename files with ordered filenames
+
+    """
+
     all_files = glob.glob(os.path.join(input_dir, "*" + ext))
 
     # Delete out directory and create a new one
@@ -23,8 +27,10 @@ def batch_rename_files(input_dir, save_dir, ext='.png', start_num=0, filename_le
 
 
 def batch_uuid_rename(input_dir, save_dir, ext=".png"):
-    """Rename files with uuid names to deidentify
+    """ Rename files with uuid names to deidentify
+
     """
+
     all_files = glob.glob(os.path.join(input_dir, "*" + ext))
     # Delete out directory and create a new one
     if os.path.exists(save_dir):

@@ -27,14 +27,14 @@ def time_to_str(delta_t, mode="min"):
     """
     if mode == "min":
         t = int(delta_t) / 60
-        hr = int(t // 60)
-        min = int(t % 60)
-        delta_str = "{:2d} hr {:2d} min".format(hr, min)
+        hrs = int(t // 60)
+        mins = int(t % 60)
+        delta_str = "{:2d} hr {:2d} min".format(hrs, mins)
     elif mode == "sec":
         t = int(delta_t)
-        min = int(t // 60)
+        mins = int(t // 60)
         sec = int(t % 60)
-        delta_str = "{:2d} min {:2d} sec".format(min, sec)
+        delta_str = "{:2d} min {:2d} sec".format(mins, sec)
     else:
         raise NotImplementedError()
 

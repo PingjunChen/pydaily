@@ -2,3 +2,4 @@ numpy==1.15.4
 scikit-image==0.14.1
 opencv-python==3.4.4.19
 pandas==0.24.1
+deepdish==0.3.6

@@ -57,3 +57,21 @@ def dict_to_pkl(data_dict, pkl_path):
     """ Save dictionary data as pickle file
 
     """
+
+h5_to_dict
+--------
+::
+
+def h5_to_dict(h5_path):
+    """ Load h5 to python dictionary.
+
+    """
+
+dict_to_h5
+--------
+::
+
+def dict_to_h5(data_dict, h5_path):
+    """ Save python dictionary to h5 file.
+
+    """

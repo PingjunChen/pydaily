@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+import sys
+
 __all__ = ['Logger',
            ]
 

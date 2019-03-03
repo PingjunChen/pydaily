@@ -22,4 +22,3 @@ def test_csv():
 
     if test_dict != cur_dict:
         raise AssertionError("dict not equal")
-        

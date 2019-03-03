@@ -19,3 +19,6 @@ def test_json():
 
     # load from csv file
     cur_dict = json_to_dict(test_json_path)
+
+    if test_dict != cur_dict:
+        raise AssertionError("dict not equal")

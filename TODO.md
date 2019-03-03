@@ -1,9 +1,10 @@
-## Todo
-  - [x] DocString
-  - [x] Testing
-  - [ ] Documentation
-  - [x] Issues
-  - [x] Pull Requests
+Todo
+------------
+    - [x] DocString
+    - [x] Testing
+    - [ ] Documentation
+    - [x] Issues
+    - [x] Pull Requests
 
-
-## Functionality
+Functionality
+------------

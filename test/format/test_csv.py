@@ -19,3 +19,7 @@ def test_csv():
 
     # load from csv file
     cur_dict = csv_to_dict(test_csv_path)
+
+    if test_dict != cur_dict:
+        raise AssertionError("dict not equal")
+        

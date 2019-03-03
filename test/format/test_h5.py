@@ -19,3 +19,6 @@ def test_h5():
 
     # load from csv file
     cur_dict = h5_to_dict(test_h5_path)
+
+    if test_dict != cur_dict:
+        raise AssertionError("dict not equal")

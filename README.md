@@ -14,10 +14,10 @@ pip install pydaily==0.3.2
 
 Main modules
 ------------
-#### filesystem-file utilities.
-#### format-file format utilities.
-#### log-log utilities.
-#### tic-time utilities.
+#### filesystem-file utilities
+#### format-file format utilities
+#### log-log utilities
+#### tic-time utilities
 
 Documentation
 ------------

@@ -75,3 +75,21 @@ def dict_to_h5(data_dict, h5_path):
     """ Save python dictionary to h5 file.
 
     """
+
+txt_to_list
+--------
+::
+
+def txt_to_list(txt_path):
+    """ Load text file as list
+
+    """
+
+list_to_txt
+--------
+::
+
+def list_to_txt(data_list, txt_path):
+    """ Save python list to text file
+
+    """

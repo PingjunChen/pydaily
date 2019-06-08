@@ -17,7 +17,7 @@ $ pip install -r requirements.txt
 ## Generate coverage report
 ```
 $ pytest --cov=./
-$ 
+$ codecov --token=********
 ```
 
 ## Submit package to PyPI

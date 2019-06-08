@@ -6,6 +6,11 @@
 [![PyPI version](https://badge.fury.io/py/pydaily.svg)](https://badge.fury.io/py/pydaily)
 ![](https://img.shields.io/github/stars/PingjunChen/pydaily.svg)
 
+Motivation
+------------
+We wrote lots of code with the same and near the same functionalities. Writing these code is not hard, but takes time. Sometimes we even need to use Google or stackoverflow to find proper solutions. Here I put the code that we almost need to use everyday (so comes pydaily) to avoid reinvent the wheels again and again. The codes here really reduce my coding burden, so that I can mainly focus on those core functionalities. If you also benefit from this repo, please consider `star`. 
+
+
 Installation
 ------------
 ```alpha
@@ -31,7 +36,18 @@ Functionalities
 - calculating elapsed time
 - getting current time
 
+
 Documentation
 ------------
 Hosted in [https://pydaily.readthedocs.io](https://pydaily.readthedocs.io), powered by [readthedocs](https://readthedocs.org) and
 [Sphinx](http://www.sphinx-doc.org).
+
+
+Contributing
+------------
+``pydaily`` is an open source project and anyone is welcome to contribute. An easy way to get started is by suggesting a new enhancement on the [Issues](https://github.com/PingjunChen/pydaily/issues). If you have found a bug, then either report this through [Issues](https://github.com/PingjunChen/pydaily/issues), or even better, make a fork of the repository, fix the bug and then create a [Pull Request](https://github.com/PingjunChen/pydaily/pulls) to get the fix into the master branch.
+
+
+License
+------------
+``pydaily`` is free software made available under the Apache License. For details see the [LICENSE](LICENSE) file.

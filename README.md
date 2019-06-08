@@ -9,7 +9,7 @@
 Installation
 ------------
 ```alpha
-pip install pydaily==0.3.3
+pip install pydaily==0.4.0
 ```
 
 Main modules

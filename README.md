@@ -6,9 +6,10 @@
 [![PyPI version](https://badge.fury.io/py/pydaily.svg)](https://badge.fury.io/py/pydaily)
 ![](https://img.shields.io/github/stars/PingjunChen/pydaily.svg)
 
+
 Motivation
 ------------
-We wrote lots of code with the same and near the same functionalities. Writing these code is not hard, but takes time. Sometimes we even need to use Google or stackoverflow to find proper solutions. Here I put the code that we almost need to use everyday (so comes pydaily) to avoid reinvent the wheels again and again. The codes here really reduce my coding burden, so that I can mainly focus on those core functionalities. If you also benefit from this repo, please consider `star`. 
+We wrote lots of codes with the same or nearly the same functionalities daily. Although writing these codes is trivial, but it takes time and affect the mood. Sometimes we even need to use Google or stackoverflow because of bad memory. Here I put the codes that we almost need to use everyday to avoid reinvent the wheels. The codes here help reduce my coding burden, so that I can focus on core functionalities. Please consider `star` if you benefit from this repo.
 
 
 Installation

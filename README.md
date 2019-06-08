@@ -1,4 +1,4 @@
-**pydaily - Daily python utilities**
+**pydaily - Python Daily Utilities**
 ============
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8e2dbb9defe6410793beed44f22783d2)](https://app.codacy.com/app/PingjunChen/pydaily?utm_source=github.com&utm_medium=referral&utm_content=PingjunChen/pydaily&utm_campaign=Badge_Grade_Dashboard)
 [![CircleCI](https://circleci.com/gh/PingjunChen/pydaily.svg?style=svg)](https://circleci.com/gh/PingjunChen/pydaily)
@@ -12,12 +12,23 @@ Installation
 pip install pydaily==0.4.0
 ```
 
-Main modules
+Functionalities
 ------------
-#### filesystem-file utilities
-#### format-file format utilities
-#### log-log utilities
-#### tic-time utilities
+
+#### IO-filesystem
+- finding all files with given extension
+- overwriting directory
+- batch renaming files
+
+#### FORMAT-format
+- dict to csv, h5, json, pickle, etc
+- list to txt  
+
+#### LOG-log
+- logging message to file
+
+#### TIC-time
+- calculating elapsed time
 
 Documentation
 ------------

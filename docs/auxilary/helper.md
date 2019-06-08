@@ -14,6 +14,12 @@ $ pipreqs $PROJ_PATH
 $ pip install -r requirements.txt
 ```
 
+## Generate coverage report
+```
+$ pytest --cov=./
+$ 
+```
+
 ## Submit package to PyPI
 ```
 $ rm -rf build dist *.egg-info

@@ -29,6 +29,7 @@ Functionalities
 
 #### TIC-time
 - calculating elapsed time
+- getting current time
 
 Documentation
 ------------

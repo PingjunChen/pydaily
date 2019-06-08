@@ -1,6 +1,16 @@
 tic
 ========
 
+current_time
+--------
+::
+
+
+def current_time():
+    """ Provide current time as YYYY-MM-DD_HH-MM-SS
+
+    """
+
 time_to_str
 --------
 ::

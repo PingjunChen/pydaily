@@ -1,6 +1,29 @@
 # -*- coding: utf-8 -*-
 
-__all__ = ["time_to_str", ]
+from datetime import datetime
+
+__all__ = ["time_to_str",
+           "current_time"]
+
+
+def current_time():
+    """ Provide current time as YYYY-MM-DD_HH-MM-SS
+
+    Parameters
+    --------
+    None
+
+    Returns
+    --------
+    time_str: str
+        current time string
+
+    """
+
+    time_str = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+
+    return time_str
+
 
 def time_to_str(delta_t, mode="min"):
     """Convert elapsed time to string representation

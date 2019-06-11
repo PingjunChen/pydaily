@@ -23,7 +23,7 @@ Functionalities
 
 #### IO-filesystem
 - finding all files with given extension
-- overwriting directory
+- directory overwriting, creating, etc
 - batch renaming files
 
 #### FORMAT-format

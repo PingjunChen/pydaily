@@ -31,6 +31,20 @@ def overwrite_dir(dir_name):
   dir_name: path of the directory
 
 
+check_mkdir
+--------
+::
+
+def check_mkdir(dir_name):
+  """ if directory not exist, create the directory
+
+  """
+
+  **Arguments**
+
+  dir_name: path of the directory
+
+
 batch_rename_files
 --------
 ::

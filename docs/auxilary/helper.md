@@ -26,3 +26,9 @@ $ rm -rf build dist *.egg-info
 $ python setup.py sdist bdist_wheel
 $ twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
 ```
+
+## Update codecov
+```
+$ pytest --cov=./
+$ codecov --token=<repo token>
+```

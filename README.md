@@ -4,6 +4,7 @@
 [![CircleCI](https://circleci.com/gh/PingjunChen/pydaily.svg?style=svg)](https://circleci.com/gh/PingjunChen/pydaily)
 [![Documentation Status](https://readthedocs.org/projects/pydaily/badge/?version=latest)](https://pydaily.readthedocs.io/en/latest/?badge=latest)
 [![PyPI version](https://badge.fury.io/py/pydaily.svg)](https://badge.fury.io/py/pydaily)
+[![Downloads](https://pepy.tech/badge/pydaily)](https://pepy.tech/project/pydaily)
 ![](https://img.shields.io/github/stars/PingjunChen/pydaily.svg)
 
 

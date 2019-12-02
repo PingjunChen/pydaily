@@ -7,8 +7,7 @@
 [![Downloads](https://pepy.tech/badge/pydaily)](https://pepy.tech/project/pydaily)
 ![](https://img.shields.io/github/stars/PingjunChen/pydaily.svg)
 
-<a href="https://www.buymeacoffee.com/3yEjAQG" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-violet.png" alt="Buy Me A Coffee" style="height: 36px !important;width: 217px !important; border-radius: 5%;" ></a>
-
+<a href="https://www.buymeacoffee.com/3yEjAQG" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-violet.png" alt="Buy Me A Coffee" style="height: 24px !important;width: 120px !important; border-radius: 5%;" ></a>
 
 Motivation
 ------------

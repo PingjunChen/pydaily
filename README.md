@@ -31,6 +31,9 @@ Functionalities
 - dict to csv, h5, json, pickle, etc
 - list to txt  
 
+#### MTM-medical text mining
+- tokenize text
+
 #### LOG-log
 - logging message to file
 

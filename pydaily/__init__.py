@@ -6,5 +6,7 @@ __version__ = '0.4.2'
 
 from . import filesystem
 from . import format
+from . import img
 from . import log
+from . import mtm
 from . import tic

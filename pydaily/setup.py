@@ -12,8 +12,9 @@ def configuration(parent_package='', top_path=None):
 
     config.add_subpackage('filesystem')
     config.add_subpackage('format')
+    config.add_subpackage('img')
     config.add_subpackage('log')
-    config.add_subpackage('mtm')    
+    config.add_subpackage('mtm')
     config.add_subpackage('tic')
 
     return config

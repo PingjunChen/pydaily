@@ -18,7 +18,7 @@ We wrote lots of codes with the same or nearly the same functionalities daily. A
 Installation
 ------------
 ```alpha
-pip install pydaily==0.4.0
+pip install pydaily==0.4.2
 ```
 
 Functionalities

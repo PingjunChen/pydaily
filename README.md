@@ -1,12 +1,14 @@
 **pydaily - Python Daily Utilities**
 ============
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8e2dbb9defe6410793beed44f22783d2)](https://app.codacy.com/app/PingjunChen/pydaily?utm_source=github.com&utm_medium=referral&utm_content=PingjunChen/pydaily&utm_campaign=Badge_Grade_Dashboard)
+[![codecov](https://codecov.io/gh/PingjunChen/pydaily/branch/master/graph/badge.svg)](https://codecov.io/gh/PingjunChen/pydaily)
 [![CircleCI](https://circleci.com/gh/PingjunChen/pydaily.svg?style=svg)](https://circleci.com/gh/PingjunChen/pydaily)
 [![Documentation Status](https://readthedocs.org/projects/pydaily/badge/?version=latest)](https://pydaily.readthedocs.io/en/latest/?badge=latest)
 [![PyPI version](https://badge.fury.io/py/pydaily.svg)](https://badge.fury.io/py/pydaily)
 [![Downloads](https://pepy.tech/badge/pydaily)](https://pepy.tech/project/pydaily)
 ![](https://img.shields.io/github/stars/PingjunChen/pydaily.svg)
 
+<a href="https://www.buymeacoffee.com/3yEjAQG" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 Motivation
 ------------

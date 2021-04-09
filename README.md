@@ -5,6 +5,7 @@
 [![CircleCI](https://circleci.com/gh/PingjunChen/pydaily.svg?style=svg)](https://circleci.com/gh/PingjunChen/pydaily)
 [![Documentation Status](https://readthedocs.org/projects/pydaily/badge/?version=latest)](https://pydaily.readthedocs.io/en/latest/?badge=latest)
 [![PyPI version](https://badge.fury.io/py/pydaily.svg)](https://badge.fury.io/py/pydaily)
+[![Conda install](https://anaconda.org/conda-forge/pydaily/badges/installer/conda.svg)](https://anaconda.org/conda-forge/pydaily)
 [![Downloads](https://pepy.tech/badge/pydaily)](https://pepy.tech/project/pydaily)
 ![](https://img.shields.io/github/stars/PingjunChen/pydaily.svg)
 
@@ -17,8 +18,13 @@ We wrote lots of codes with the same or nearly the same functionalities daily. A
 
 Installation
 ------------
+- Using pip:
 ```alpha
 pip install pydaily==0.4.2
+```
+- Using conda:
+```alpha
+conda install -c conda-forge pydaily
 ```
 
 Functionalities

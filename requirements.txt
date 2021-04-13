@@ -1,5 +1,5 @@
-numpy==1.15.4
-opencv-python==3.4.4.19
-scikit-image==0.14.2
-pandas==0.24.1
+numpy>=1.15.4
+opencv-python>=4.1.2.30
+scikit-image>=0.14.2
+pandas>=0.24.1
 deepdish==0.3.6

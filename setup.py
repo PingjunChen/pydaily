@@ -10,7 +10,7 @@ DESCRIPTION = "Daily python utility functions."
 HOMEPAGE = "https://github.com/PingjunChen/pydaily"
 LICENSE = "Apache"
 AUTHOR_NAME = "Pingjun Chen"
-AUTHOR_EMAIL = "chenpingjun@gmx.com"
+AUTHOR_EMAIL = "pingjunchen@ieee.org"
 
 REQS = ""
 with open('requirements.txt') as f:
@@ -22,10 +22,8 @@ CLASSIFIERS = [
     'Intended Audience :: Science/Research',
     'License :: OSI Approved :: Apache Software License',
     'Programming Language :: Python',
-    'Programming Language :: Python :: 2',
-    'Programming Language :: Python :: 2.7',
     'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.4',
+    'Programming Language :: Python :: 3.8',
     'Topic :: Scientific/Engineering',
 ]
 

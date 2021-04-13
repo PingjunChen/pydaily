@@ -20,7 +20,7 @@ Installation
 ------------
 - Using pip:
 ```alpha
-pip install pydaily==0.4.3
+pip install pydaily==0.4.4
 ```
 - Using conda:
 ```alpha
